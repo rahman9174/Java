@@ -20,12 +20,16 @@ public class InsertNodeAtEndLinkedList {
     }
 }
 class InsertAtTheEnd{
-    public static  void insertNodeAtTheEnd(Node head,Node newNode){
+    public static  Node insertNodeAtTheEnd(Node head,Node newNode){
         Node currHead = head;
+        if(head  == null){
+            return   newNode;
+        }
         while(currHead.next != null){
             currHead = currHead.next;
         }
         currHead.next = newNode;
+        return head;
     }
 }
 // this class  is available inside  the InsertNodeAtBeginningLinkedList class
