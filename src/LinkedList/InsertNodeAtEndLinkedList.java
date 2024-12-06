@@ -16,7 +16,6 @@ public class InsertNodeAtEndLinkedList {
         PrintLinkedListNodes.printNodes(head);
 
 
-
     }
 }
 class InsertAtTheEnd{

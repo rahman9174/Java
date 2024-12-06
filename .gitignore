@@ -2,8 +2,8 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-.gitignore
-
+/.gitignore
+C:\My Space\Programming World\Java\Collection Frame Work\.idea
 
 ### Eclipse ###
 .apt_generated
