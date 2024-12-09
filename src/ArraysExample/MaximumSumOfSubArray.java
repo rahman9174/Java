@@ -2,7 +2,7 @@ package ArraysExample;
 
 public class MaximumSumOfSubArray {
     public static void main(String[] args) {
-        int[] arr = {-2,-4};
+        int[] arr = {-79, -68, -18, -58, 25, 52, -68, -30, 6, 10};
 
         int max = Integer.MIN_VALUE;
         for(int i = 0 ; i< arr.length ; i++){
